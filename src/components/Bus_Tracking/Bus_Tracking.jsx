@@ -3,7 +3,7 @@ import React from 'react'
 export default function Bus_Tracking() {
   return <>
 
-<h1 className='h-5'>Bus_Tracking</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3779.3634191352758!2d31.342429222620307!3d29.85077537750529!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583763f0493b35%3A0x4d6c3cde8ab3c00f!2z2YPZhNmK2Kkg2KfZhNmH2YbYr9iz2KkgLSDYrNin2YXYudipINit2YTZiNin2YY!5e0!3m2!1sar!2seg!4v1708392808055!5m2!1sar!2seg" width="100%" height="560"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
    {/* <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
     data-sidebar-position="fixed" data-header-position="fixed">

@@ -34,21 +34,10 @@ export default function Register() {
     setUser(userCopy);
   }
 
-  async function sendDataToApi() {
-    let {data} =  await axios.post('http://localhost:8000/api/register' ,User);
-    console.log(data);
-    // if(data.message ==='success')
-    // {
-    //   setFlag(false);
-    //   //login
-    //   navigate('/login')
-    // }
-    // else
-    // {
-    //   setFlag(false);
-    //   setError(data.message);
-    // }
-  }
+  // async function sendDataToApi() {
+  //   let {data} =  await axios.post('http://localhost:8000/api/register' ,User);
+  //   console.log(data);
+  // }
 async function getUserList() {
     return await axios.post('http://localhost:8000/api/register' ,User)
       .then(response => response.data)

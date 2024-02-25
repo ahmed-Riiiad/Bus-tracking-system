@@ -73,9 +73,9 @@ a{
 } */
 
 .admin{
-  background-image: url(/public/imgs/622434947.png);
+  background-image: url(/public/imgs/bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
 }
 
 
@@ -86,10 +86,10 @@ background-color: #f3f4f5;
 
 }
 .bg-img{
-  background-image: url(/public/imgs/622434947.png);
+  background-image: url(/public/imgs/bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  
+  background-size: 100% 100% ;
+  background-attachment: fixed;
   
 }
   
@@ -97,3 +97,4 @@ background-color: #f3f4f5;
 /* background-color: rgba(1, 1, 6, 0.44); */
   
   }
+  

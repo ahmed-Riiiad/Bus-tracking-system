@@ -57,12 +57,10 @@ export default function Login({ saveUserData }) {
         localStorage.setItem("token", JSON.stringify(userListData.data));
         saveUserData();
         //login
-        if (userListData.data.email == 'bus.tracking6@gmail.com') {
+        if (userListData.data.role == 'admin') {
         navigate("/admin");
-          
         } else {
         navigate("/");
-          
         }
       } else {
         setFlag(false);
